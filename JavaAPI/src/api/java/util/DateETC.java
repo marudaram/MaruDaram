@@ -7,7 +7,7 @@ import java.util.GregorianCalendar;
 public class DateETC {
 	
 	public static void main(String[] args) {
-		//날짜와 시간을 다른 형태ㅗ 사용하는 클래스
+		//날짜와 시간을 다른 형태로 사용하는 클래스
 		Calendar calendar = new GregorianCalendar();
 		//Date 보다 많은 정보를 출력
 		System.out.println(calendar);

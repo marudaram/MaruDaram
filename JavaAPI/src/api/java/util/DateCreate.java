@@ -29,21 +29,21 @@ public class DateCreate {
 		System.out.println(sdf.format(firstBirthTime));
 		
 		
-		//연습해보는 과제 - 년월일을 비교해서 년월일이 같으면 시간과 분을, 그렇지 않으면 년월일을 출력
-		
-		Scanner scan = new Scanner(System.in);
-		int year = scan.nextInt();
-		int month = scan.nextInt();
-		int day = scan.nextInt();
-		
-		SimpleDateFormat sdff = new SimpleDateFormat("HH시 mm분");
-		SimpleDateFormat sdfff = new SimpleDateFormat("yyyy년 M월 d일");
-		
-		if(firstBirthTime.equals(year) && firstBirthTime.equals(month) && firstBirthTime.equals(day)) {
-			System.out.println(sdfff.format(firstBirthTime));
-		} else {
-			System.out.println(sdff.format(firstBirthTime));
-		}
+//		//연습해보는 과제 - 년월일을 비교해서 년월일이 같으면 시간과 분을, 그렇지 않으면 년월일을 출력
+//		
+//		Scanner scan = new Scanner(System.in);
+//		int year = scan.nextInt();
+//		int month = scan.nextInt();
+//		int day = scan.nextInt();
+//		
+//		SimpleDateFormat sdff = new SimpleDateFormat("HH시 mm분");
+//		SimpleDateFormat sdfff = new SimpleDateFormat("yyyy년 M월 d일");
+//		
+//		if(firstBirthTime.equals(year) && firstBirthTime.equals(month) && firstBirthTime.equals(day)) {
+//			System.out.println(sdfff.format(firstBirthTime));
+//		} else {
+//			System.out.println(sdff.format(firstBirthTime));
+//		}
 				
 		
 		
